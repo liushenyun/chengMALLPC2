@@ -1,0 +1,27 @@
+body.CM-same {
+    padding-top: 50px;
+  }
+.CM-same .navbar {
+    min-height: 38px;
+    margin-bottom: 10px;
+    background: #FFF;
+    border-bottom: 1px solid rgba(181,181,181,0.5);
+}
+.CM-same .navbar-header {
+    min-width: 192px;
+    height: 38px;
+    background: url('../../img/logo_top.png') no-repeat center center;
+    background-size: auto 30px;
+}
+.CM-same .navbar-nav>li>a {
+padding-top: 10px;
+padding-bottom: 10px;
+color: #333
+}
+.CM-same .navbar-right .active {
+    border-bottom: 1px solid #FF7F00;
+}
+.CM-same .navbar-right .active a{
+    color: #FF7F00;
+    font-size: 12px;
+}

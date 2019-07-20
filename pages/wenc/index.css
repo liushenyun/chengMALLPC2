@@ -1,0 +1,191 @@
+
+/* ====================  about.html ===================== */
+.about-con .about-log-bg {
+    height: 450px;
+    background: url('../../img/about_banner.png') no-repeat left top;
+    background-size: 100% 100%;
+}
+.about-instr-outer {
+    margin-top: 40px;
+    text-align: center;
+}
+.about-instr-outer p {
+    line-height:14px;
+}
+.about-instr-outer p:nth-of-type(1){
+    font-weight:bolder;
+    color:rgba(51,51,51,1);
+    font-size: 14px;
+}
+.about-instr-outer p:nth-of-type(2){
+    color:#FF7F00;
+    font-size: 12px;
+}
+.about-instr-outer span {
+    display: inline-block;
+    width: 22px;
+    height: 2px;
+    background-color: #FF7F00;
+}
+.about-instr-word {
+    min-height: 20px;
+    margin: 32px 0 52px 0;
+}
+.about-instr-word .about-word-inner1 {
+    box-sizing: border-box;
+    width: 562px;
+    background: #FF7F00;
+    padding: 6px;
+    border-radius: 6px;
+    position: relative;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.about-instr-word .about-word-inner2 {
+    width: 100%;
+    padding: 22px 46px;
+    border: 1px solid #FFF;
+    box-sizing: border-box;
+    border-radius: 6px;
+    font-family:SimHei;
+    color:#FFF;
+    line-height: 20px;
+    text-indent: 2em;
+}
+.about-mission {
+    min-height: 60px;
+}
+.about-mission-ul {
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 560px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.about-mission-ul li {
+    display: inline-block;
+    text-align: center;
+}
+.about-mission-ul li img:nth-of-type(1) {
+    width: 66px;
+    height: 66px;
+}
+.about-mission-ul li .about-mission-jiantou {
+    margin: 4px 0;
+    overflow: hidden;
+}
+.about-mission-ul li .about-mission-jiantou img {
+    width: 12px;
+    height: 10px;
+    /* margin-left: -2px; */
+}
+.about-mission-ul li div {
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    margin: 2px 0 12px 0;
+}
+.about-mission-ul li div p {
+    border: 1px solid #FF7F00;
+    border-radius: 4px;
+    width: 88px;
+    display: inline-block;
+    letter-spacing: 4px;
+    font-weight: bolder;
+}
+
+.about-mission-ul li .about-mission-p1 {
+   letter-spacing: 2px;
+}
+
+.about-develop-outer {
+    margin-top: 50px;
+    min-height: 560px;
+}
+.about-time-outer {
+    width: 100%;
+    height: 560px;
+    display: flex;
+    justify-content: center;
+}
+.about-time-outer .about-time-left {
+    flex: 1;
+    height: 100%;
+    /* background: red; */
+}
+.about-same-ul{
+    height: 100%;
+}
+.about-same-ul li {
+    height: 98px;
+}
+.about-same-ul li p:nth-of-type(1) {
+    color: #FF7F00;
+    font-size: 16px;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+    font-weight: bolder;
+}
+.about-same-ul li p:nth-of-type(2) {
+    font-size: 12px;
+    line-height: 1.2;
+    letter-spacing: 1px;
+}
+.about-same-left li p{
+    text-align: right;
+}
+
+.about-same-left li:nth-of-type(1) {
+    margin-top: 58px;
+}
+.about-same-right li:nth-of-type(1) {
+    margin-top: 108px;
+}
+.about-same-right li p{
+    text-align: left;
+}
+.about-time-outer .about-time-mid {
+    width: 50px;
+    height: 100%;
+    margin: 0 18px;
+    /* background: url('./image/time.png') no-repeat center top;
+    background-size: 50px 100%; */
+}
+.about-time-outer .about-time-mid img {
+    width: 100%;
+    height: 100%;
+}
+
+.about-time-outer .about-time-right {
+    flex: 1;
+    height: 100%;
+    /* background: red; */
+}
+.about-time-right ul,
+.about-time-right li,
+.about-time-left ul,
+.about-time-left li {
+    list-style: none;
+}
+
+.about-time-bottom {
+    height: 70px;
+    background: url('../../img/time_bottom.png') no-repeat left top;
+    background-size: 100% 100%;
+    text-align: center;
+    overflow: hidden;
+}
+.about-time-bottom span {
+    display: inline-block;
+    margin-top: 18px;
+}
+.about-time-bottom span p:nth-of-type(1) {
+    color: #FF7F00;
+    font-size: 14px;
+    margin-bottom: 4px;
+}

@@ -1,0 +1,107 @@
+/* body {
+  min-height: 2000px;
+  padding-top: 70px;
+} */
+.index-con {
+    
+}
+.index-con .index-top-bg {
+ height: 500px;
+ background: url('../../img/index_banner.png') no-repeat left top;
+ background-size: 100% 100%;
+}
+
+.index-spec-outer {
+    margin-top: 34px;
+    margin-bottom: 60px;
+    height: 468px;
+    position: relative;
+}
+.index-spec-outer .spec-bg{
+    position: absolute;
+    left: 26%;
+    top: 0;
+    width: 238px;
+    height: 100%;
+    z-index: 1;
+}
+.index-spec-outer .spec-red {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    height: 162px;
+    background: #FF7F00;
+}
+.index-spec-outer .spec-list {
+    height: 320px;
+    min-width: 200px;
+    position: absolute;
+    right: 29%;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+.index-spec-outer .spec-list {
+  list-style: none;
+}
+.index-spec-outer .spec-list li {
+    height: 50px;
+    width: 100%;
+    /* background: blueviolet; */
+    color: #FFF;
+    list-style: none;
+}
+.index-spec-outer .spec-list-sapn1 {
+    color: #FF7F00;
+    float: left;
+    font-size: 26px;
+    padding-top: 4px;
+    margin-right: 6px;
+}
+.index-spec-outer .spec-list-sapn2 {
+    color: #333;
+    float: left;
+}
+.index-spec-outer .spec-list-sapn2 p {
+  margin: 0;
+  line-height: 1;
+}
+.index-spec-outer .spec-list-sapn2 p:nth-of-type(1) {
+    font-size: 18px;
+    letter-spacing: 10px;
+    font-weight: bolder;
+}
+.index-spec-outer .spec-list-sapn2 p:nth-of-type(2) {
+    font-size: 12px;
+    letter-spacing: 2px;
+    margin: 4px 0 6px 0;
+    color: #FF7F00;
+}
+.index-spec-outer .spec-list-sapn2 p:nth-of-type(3) {
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+.index-spec-outer .spec-list-g .spec-list-sapn1 {
+    color: #FFF;
+}
+.index-spec-outer .spec-list-g .spec-list-sapn2 p:nth-of-type(1),
+.index-spec-outer .spec-list-g .spec-list-sapn2 p:nth-of-type(3) {
+    color: #FFF;
+}
+
+.index-spec-outer .spec-list-g .spec-list-sapn2 p:nth-of-type(2) {
+    color: #333
+}
+
+.ai-code-outer {
+    height: 164px;
+    border-top: 1px solid #BFBFBF;
+    border-bottom: 30px solid #FF7F00;
+    margin-bottom: 100px;
+}
